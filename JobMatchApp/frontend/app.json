@@ -1,0 +1,56 @@
+{
+    "name": "JobMatchApp",
+    "displayName": "JobMatchApp",
+    "expo": {
+      "name": "JobMatchApp",
+      "slug": "jobmatchapp",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./src/assets/images/icon.png",
+      "splash": {
+        "image": "./src/assets/images/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.yourcompany.jobmatchapp"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./src/assets/images/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+        },
+        "package": "com.yourcompany.jobmatchapp",
+        "permissions": [
+          "CAMERA",
+          "READ_EXTERNAL_STORAGE",
+          "WRITE_EXTERNAL_STORAGE",
+          "ACCESS_FINE_LOCATION"
+        ]
+      },
+      "web": {
+        "favicon": "./src/assets/images/favicon.png"
+      },
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ],
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Allow JobMatchApp to use your location."
+          }
+        ]
+      ]
+    }
+  }
