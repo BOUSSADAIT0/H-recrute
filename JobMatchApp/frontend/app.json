@@ -20,14 +20,14 @@
       ],
       "ios": {
         "supportsTablet": true,
-        "bundleIdentifier": "com.yourcompany.jobmatchapp"
+        "bundleIdentifier": "com.jobmatchapp"
       },
       "android": {
         "adaptiveIcon": {
           "foregroundImage": "./src/assets/images/adaptive-icon.png",
           "backgroundColor": "#FFFFFF"
         },
-        "package": "com.yourcompany.jobmatchapp",
+        "package": "com.jobmatchapp",
         "permissions": [
           "CAMERA",
           "READ_EXTERNAL_STORAGE",
