@@ -6,8 +6,8 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const compression = require('compression');
 const cookieParser = require('cookie-parser');
-const { errorHandler } = require('../middlewares/errorHandler');
-const routes = require('../routes');
+const { errorHandler } = require('./middleware/errorHandler');
+const routes = require('./routes');
 
 /**
  * Application configuration and setup
